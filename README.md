@@ -1,2 +1,5 @@
+<<<<<<< HEAD
 # reactweb
-For the learning perpose  created using react
+=======
+# react-website
+>>>>>>> d27a42e (this is react website to learn)

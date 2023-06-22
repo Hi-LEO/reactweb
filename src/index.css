@@ -1,0 +1,86 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fff;
+  font-family: 'PT Serif', serif;
+  box-sizing: border-box;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+.navbar {
+  border-bottom: 1px solid blue;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin-right: 20px;
+
+}
+
+
+
+.navbar-brand {
+  font-size: 1.4em;
+  color: lightslategrey;
+  text-decoration: underline;
+  margin-left: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+
+}
+
+.homeimage {
+  width: 500px;
+  float: right;
+  position: relative;
+  animation: firstimage 2s alternate-reverse infinite;
+}
+
+@keyframes firstimage {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .homeimage {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+.main {
+  height: 100vh;
+}
+
+.footer {
+  background-color: rgb(57, 56, 56);
+  color: white;
+  font-size: larger;
+  text-align: center;
+}
+
+.imgsec {
+  height: 300px;
+}
